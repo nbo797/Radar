@@ -1,2 +1,3 @@
-torneo,fecha,player_a,player_b,rank_a,rank_b,odds_a,odds_b,notas
-Challenger Costa do Sauipe,2026-11-05,Roman Burruchaga,Henrique Rocha,62,106,1.55,2.40,ejemplo: borra o edita estas filas
+torneo,categoria,fecha,player_a,player_b,rank_a,rank_b,odds_a,odds_b,forma_a,forma_b,h2h,superficie,notas,ejemplo
+Challenger EJEMPLO,Challenger 125,2026-01-01,Jugador Ejemplo A,Jugador Ejemplo B,90,210,1.55,2.40,4 victorias en los últimos 5,2 victorias en los últimos 5,1-0 para A,Tierra batida,fila de ejemplo: se ignora mientras ejemplo=si,si
+
