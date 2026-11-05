@@ -1,6 +1,6 @@
 name: Actualizar radar
 on:
-  schedule: [{cron: "0 6 * * *"}]
+  schedule: [{cron: "0 6 * * *"}]   # cada día 06:00 UTC
   workflow_dispatch: {}
 permissions: {contents: write}
 jobs:
@@ -17,4 +17,4 @@ jobs:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
       - run: |
           git config user.name "radar-bot"; git config user.email "bot@users.noreply.github.com"
-          git add docs; git commit -m "actualización diaria" || exit 0; git push
+          git add docs model_config.json; git commit -m "actualización diaria" || exit 0; git pull --rebase; git push
