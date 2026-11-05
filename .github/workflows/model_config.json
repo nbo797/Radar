@@ -1,0 +1,5 @@
+{
+ "champion": {"version": "poisson-v1.1", "calibration": {}},
+ "candidate": null,
+ "auto_learn": true
+}
