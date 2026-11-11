@@ -77,7 +77,7 @@ footer{color:var(--mu);font-size:12px;text-align:center;padding:10px 0 30px}
 </main>
 <script src="vars.js"></script><script src="metrics.js"></script><script src="db.js"></script><script src="learn.js"></script><script src="ui.js"></script>
 <script>
-const D={"updated": "10/11/2026 06:55 UTC", "generatedAt": "2026-11-10T06:55:30Z", "football": [], "tennis": [], "combos": [], "margin": 0.94, "modelConfig": {"champion": {"version": "poisson-v1.1", "calibration": {}}, "candidate": null, "auto_learn": true}, "learningLog": []},MG=D.margin,$=s=>document.querySelector(s),pc=x=>(x*100).toFixed(0)+"%",p1=x=>(x*100).toFixed(1)+"%",E=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const D={"updated": "11/11/2026 06:59 UTC", "generatedAt": "2026-11-11T06:59:14Z", "football": [], "tennis": [], "combos": [], "margin": 0.94, "modelConfig": {"champion": {"version": "poisson-v1.1", "calibration": {}}, "candidate": null, "auto_learn": true}, "learningLog": []},MG=D.margin,$=s=>document.querySelector(s),pc=x=>(x*100).toFixed(0)+"%",p1=x=>(x*100).toFixed(1)+"%",E=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 $("#up").textContent="Actualizado "+D.updated;$("#mv").textContent="Modelo "+((D.modelConfig&&D.modelConfig.champion.version)||"—");
 const CC={Champions:"#2563eb",LaLiga:"#ea580c",Premier:"#7c3aed","Serie A":"#0891b2"},ed=(p,o)=>o?p*o.o-1:null;
 const hasVal=m=>[["p1","p1"],["px","px"],["p2","p2"],["o25","o25"]].some(([k,o])=>{const e=ed(m.p[k],m.odds[o]);return e!=null&&e>.03});
