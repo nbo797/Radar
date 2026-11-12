@@ -1,1 +1,1 @@
-{"updated": "11/11/2026 06:59 UTC", "generatedAt": "2026-11-11T06:59:14Z", "football": [], "tennis": [], "combos": [], "margin": 0.94, "modelConfig": {"champion": {"version": "poisson-v1.1", "calibration": {}}, "candidate": null, "auto_learn": true}, "learningLog": []}
+{"updated": "12/11/2026 07:01 UTC", "generatedAt": "2026-11-12T07:01:50Z", "football": [], "tennis": [], "combos": [], "margin": 0.94, "modelConfig": {"champion": {"version": "poisson-v1.1", "calibration": {}}, "candidate": null, "auto_learn": true}, "learningLog": []}
